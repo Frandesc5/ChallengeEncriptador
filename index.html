@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <script type="text/javascript" src="java.js"></script>
+    <title>Desencriptador</title>
+</head>
+
+
+<body>
+    <header>
+        <img class="logoAlura" src="imagenes/Vectorlogo.png" alt="Logo Alura" >
+    </header>
+
+    <main>
+    
+        <div class="contenedor1">
+
+            <div class = "entradaTexto">
+                <textarea type= "text" cols="70" rows="10" id="textoEncriptado" class="textEntrada" placeholder="Ingrese el Texto Aqui" required></textarea>
+            </div>
+
+            <div class="obligatorio">
+                <iconify-icon icon="bi:exclamation-circle-fill" style="color: #495057;"></iconify-icon>
+                <div class="frase">Solo letras minúsculas y sin acentos</div>
+            </div>
+
+            <div class="botones">
+                <button type="button" id="botonEncriptado" class="encriptar">Encriptar</button>
+                <button type="button" id="botonDesencriptado" class="desencriptar">Desencriptar</button>
+                <button type="button" id="botonCopiar" class="copiar"></button>
+            </div>
+
+        
+
+        </div>
+        
+        <div class="contenedor2">
+            <div class = "SalidaTexto">
+                <textarea cols="70" rows="10" id="textoDesencriptado" class="textSalida"></textarea>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+    <script>
+        var btn1 = document.querySelector("#botonEncriptado");
+        btn1.onclick = encriptar;
+
+        var btn2 = document.querySelector("#botonDesencriptado");
+        btn2.onclick = desencriptar;
+
+        var btn3 = document.querySelector("#botonCopiar");
+        btn3.onclick = copiar;
+    </script>
+    
+
+
+</html>

@@ -1,0 +1,151 @@
+body{
+    background-color: #e9ecf8;
+    width: 98%;
+}
+header{
+    width: 50px;
+    height: 20px;
+}
+
+.logoAlura{
+    padding: 20px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 20px;
+}
+
+
+.entradaTexto{
+    display: inline;
+}
+
+.textEntrada{
+    font-family: "Trebuchet MS";
+    margin: 83px 0 100px 143px  ;
+    border: none;
+    border-radius: 7px;
+    background-color: #e9ecf8;
+    width: 577px;
+    height: 300px;
+    font-size: 21px;
+    letter-spacing: 3px;
+    padding: 7px 10px;
+    color: #0A3871;
+    outline: none;
+    resize: none;
+}
+
+.textEntrada:hover{
+    transition: 0.2s all;
+    transform: scale(1.02);
+}
+
+
+.textEntrada::placeholder{
+    font-size: 25px;
+    color: #0A3871;
+
+}
+
+
+.obligatorio{
+    font-size: 13px;
+    display: flex;
+    margin-left: 144px;
+}
+
+.frase{
+    font-family: "Trebuchet MS";
+    margin-left: 5px;
+    color: #868e96;
+}
+
+.botones{
+    margin: 9px 0 0 120px;
+}
+
+
+.encriptar{
+    font-family: "Trebuchet MS";
+    color:#e9ecf8;
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 12px;
+    width: 280px;
+    height: 37px;
+    margin: 0 20px ;
+    font-size: 15px;
+    font-weight: 400
+}
+
+.encriptar:hover{
+    transition: 0.2s all;
+    transform: scale(1.04);
+}
+
+.desencriptar{
+    font-family: "Trebuchet MS";
+    color:#0A3871;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 12px;
+    width: 280px;
+    height: 37px;
+    margin: 0 20px ;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.desencriptar:hover{
+    transition: 0.2s all;
+    transform: scale(1.04);
+}
+
+.copiar{
+    background: #D8DFE8;
+    width: 37px;
+    height: 37px;
+    background-image: url(https://api.iconify.design/material-symbols/content-copy-outline.svg?color=white);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    margin: 10px 0 0 110px ;
+    padding: 14px;
+    border: 1px solid #0A3871;
+    border-radius: 8px;
+    background-color: #0A3871;
+
+}
+
+.copiar:hover{
+    transition: 0.2s all;
+    transform: scale(1.04);
+}
+
+.contenedor2{
+    width: 20%;
+}
+
+.textSalida{
+    width: 250px;
+    height: 570px;
+    border: none;
+    border-radius: 20px;
+    position: static;
+    font-size: 19px;
+    letter-spacing: 3px;
+    padding: 7px 10px;
+    color: #0A3871;
+    font-weight: 500;
+    background-image: url(imagenes/munheco.png) ;
+    background-position-y: 120px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 239px;
+    outline: none;
+    resize: none;
+}
+
